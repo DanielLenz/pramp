@@ -47,5 +47,6 @@ def test():
 if __name__ == '__main__':
     test()
     arr = [1, 5, 6, 8, -1, 4, 3, 2]
+    arr = [1, 5]
     print(f"Input array: {arr}")
     sorted_arr = pancake_sort(arr, verbose=1)
