@@ -14,7 +14,6 @@ drawHTree will not be called before the current one being executed returns (i.e.
 
 """
 
-import numpy as np
 import matplotlib.pyplot as plt
 
 def draw_line(x, y):
@@ -52,5 +51,4 @@ def drawHTree(x, y, length, depth):
 
 if __name__ == '__main__':
   drawHTree(0, 0, 1, depth=2)
-  plt.show() 
-  
+  plt.show()
