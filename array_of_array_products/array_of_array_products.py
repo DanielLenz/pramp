@@ -13,6 +13,8 @@ def array_of_array_products(arr):
     output = [1] * length
 
     # We use a forward and a backward pass through the array
+    # This is related to the Viterbi algorithm, which is
+    # e.g. used to calculate the likelihood for Hidden Markov Models
 
     # Forward
     p = 1

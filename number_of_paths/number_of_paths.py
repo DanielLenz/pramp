@@ -37,7 +37,10 @@ def num_of_paths_to_dest(n):
 
 if __name__ == '__main__':
   """
+  Can also use the Catalan number of n-1 to solve this
+  https://en.wikipedia.org/wiki/Catalan_number
   Take 2n, n steps up
+  C_n = 1/(n+1) (2n,n)
   """
   
   for i in range(1, 7):
